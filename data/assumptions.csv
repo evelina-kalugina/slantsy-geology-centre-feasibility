@@ -1,0 +1,40 @@
+block,parameter,unit,low,base,high,source,status
+visitors,visitors_per_year,visitors/year,,60000,,"Thesis: Kingisepp museum 11,000 x 5.5; later replaced by Project 1 (Klint demand model)",base from thesis; set low/high (wide range)
+visitors,paying_share,share of visitors,,,,"Discounts/free entry for children, students, pensioners; museum price lists",to research
+revenue,ticket_price_full,RUB,,,,"Prices of Kingisepp museum, Ivangorod and Koporye fortresses, Kohtla-Nomme mine museum",to research
+revenue,secondary_spend,RUB/visitor,,,,Shop + cafe (20 seats) spend per visitor; museum reports / cafe average bill,to research
+revenue,events_revenue,RUB/year,,,,"Lecture hall (100 seats), temporary exhibitions, rentals",to research
+costs_operating,museum_staff,people,,,,"Thesis: staff rooms; benchmark staff per 1,000 m2 of comparable museums",to research
+costs_operating,avg_monthly_wage,RUB/month,,,,Project 2 features.csv: wage_2025 for Slantsy (Rosstat),from Project 2
+costs_operating,payroll_tax_rate,share of wages,,,,Russian insurance contributions on top of wages,to research
+costs_operating,utilities_maintenance,RUB/m2/year,,,,"Facility management benchmarks for public buildings, Leningrad Oblast",to research
+costs_capital,area_museum,m2,,2000,,Thesis program,from thesis
+costs_capital,area_institute,m2,,3000,,Thesis program,from thesis
+costs_capital,area_administration,m2,,400,,Thesis program,from thesis
+costs_capital,area_tower,m2,,60,,Thesis program (observation tower to spoil heap),from thesis
+costs_capital,area_parking,m2,,2070,,Thesis program (2 parkings),from thesis
+costs_capital,site_area,ha,,6.93,,Thesis: cadastral area of 3 plots,from thesis
+costs_capital,cost_per_m2_museum,RUB/m2,,,,NCS (НЦС) collection for culture objects + regional coefficient Leningrad Oblast,to research
+costs_capital,cost_per_m2_institute,RUB/m2,,,,NCS collection for research/administrative buildings,to research
+costs_capital,cost_per_m2_administration,RUB/m2,,,,NCS administrative buildings,to research
+costs_capital,cost_tower,RUB,,,,Comparable observation towers in Russia (lump sum),to research
+costs_capital,cost_per_m2_parking,RUB/m2,,,,NCS / landscaping benchmarks,to research
+costs_capital,cost_landscaping,RUB/ha,,,,Riverfront improvement projects (e.g. Comfortable Urban Environment programme),to research
+costs_capital,design_contingency,share of capex,,,,"Design + unforeseen costs, usual range",to research
+finance,discount_rate,real rate per year,,,,Social discount rate used for public projects,to research
+finance,horizon,years,,25,,Standard appraisal period for public buildings,suggested
+institute,institute_staff,people,,250,,Thesis: research institute ~250 people (open office 115 seats + labs),from thesis; check low/high (phased hiring)
+institute,researcher_monthly_wage,RUB/month,,,,"Rosstat wages in scientific research (OKVED 72), Leningrad Oblast / St Petersburg; usually above local wage",to research
+institute,lab_equipment_capex,RUB,,,,"Equipment for geochemistry, microscopy, sample prep labs; procurement records (zakupki.gov.ru) of similar labs",to research
+institute,equipment_renewal,share of equipment per year,,,,Typical replacement cycle of lab equipment (e.g. 10 years = 0.10),to research
+institute,contract_research_revenue,RUB/year,,,,"Lab analyses, mine water / subsidence / spoil heap monitoring, reclamation studies for companies and authorities",to research
+institute,core_storage_fee,RUB/m2/year,,,,Paid core storage services (state and company core repositories),to research
+institute,core_storage_area,m2,,400,,Thesis: core and collections storage,from thesis
+institute,partner_rent_area,m2,,,,"Share of institute offices/labs leased to partner institutes, universities (field base), technical college",to research
+institute,partner_rent_rate,RUB/m2/year,,,,"Office/lab rent in Slantsy / Kingisepp / Leningrad Oblast (Avito, CIAN commercial listings)",to research
+institute,grants_per_year,RUB/year,,,,Russian Science Foundation grants and state assignment of comparable institutes,to research
+investor,lease_rate_institute,RUB/m2/year,,,,Lease paid by state/partners to the building owner (PPP availability payment); will be solved for,to research
+investor,required_return,IRR per year,,,,Return investors expect for PPP / infrastructure projects in Russia,to research
+investor,owner_maintenance,share of capex per year,,,,Building maintenance borne by owner,to research
+town,slantsy_employment,people,,,,"Project 2 features.csv: emp_2025 for Slantsy (Rosstat, organisations without SMEs)",from Project 2
+town,complex_jobs,people,,300,,Thesis: ~300 workers (institute 250 + administration 50),from thesis
